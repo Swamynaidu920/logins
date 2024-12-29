@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('C:/Users/swamy/Desktop/flo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 250px;
+            border-radius: 20px;
+            background: linear-gradient(to right, #039555, #05ede5, #0aecbf);
+            text-align: center;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-right: 50px;
+        }
+        fieldset {
+            background-color: rgb(255, 255, 255);
+            width: 260px;
+            border-radius: 9px;
+            padding: 20px;
+            border: none;
+        }
+        #form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 50px;
+           
+        }
+        input[type=text],input[type=password]{
+            border: none;
+            border-bottom:2px solid #0ef7bd;
+            outline: none;
+            background: none;
+            padding:10px;
+            width: 90%;
+            font-size: 16px;
+        }
+        h1{
+            text-align: center;
+            color: azure;
+        }
+        h3{
+            font-weight: 300;
+            color: azure;
+        }
+        #input{
+            background-color: rgb(7, 107, 75);
+        }
+        #forget{
+            color: cadetblue;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <fieldset id="input">
+            <form>
+                <h1>LOGIN</h1>
+                <h3>USERNAME</h3>
+                <input type="text" name="name" placeholder="👤Type your name">
+                <h3>PASSWORD</h3>
+                <input type="password" name="password" placeholder="🔒Type your password"><br>
+                <a id="forget" href>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forget your password?</a><br><br>
+                <button name="login">Login</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
